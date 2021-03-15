@@ -22,3 +22,5 @@
             <version>2.1.9.RELEASE</version>
         </dependency>
     </dependencies> 
+    
+    ``` MVN命令: mvn install:install-file -Dfile=service.sdk-1.0.jar -DgroupId=com.selfcode.bytedance.service.sdk  -DartifactId=service.sdk -Dversion=1.0 -Dpackaging=jar
