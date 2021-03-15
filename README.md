@@ -4,7 +4,8 @@
 
 以下是项目中用到的依赖：
 
-```<dependencies>
+```
+<dependencies>
         <!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
         <dependency>
             <groupId>com.alibaba</groupId>
@@ -22,5 +23,5 @@
             <version>2.1.9.RELEASE</version>
         </dependency>
     </dependencies> 
-
-``` Maven导入命令: mvn install:install-file -Dfile=service.sdk-1.0.jar -DgroupId=com.selfcode.bytedance.service.sdk  -DartifactId=service.sdk -Dversion=1.0 -Dpackaging=jar
+```
+Maven导入命令: mvn install:install-file -Dfile=service.sdk-1.0.jar -DgroupId=com.selfcode.bytedance.service.sdk  -DartifactId=service.sdk -Dversion=1.0 -Dpackaging=jar
