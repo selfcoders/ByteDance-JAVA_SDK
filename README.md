@@ -24,4 +24,5 @@
         </dependency>
     </dependencies> 
 ```
+```
 Maven导入命令: mvn install:install-file -Dfile=service.sdk-1.0.jar -DgroupId=com.selfcode.bytedance.service.sdk  -DartifactId=service.sdk -Dversion=1.0 -Dpackaging=jar
